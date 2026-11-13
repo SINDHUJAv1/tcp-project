@@ -1,0 +1,25 @@
+{
+  "name": "tcp-connection-failure-analysis-system",
+  "version": "1.0.0",
+  "description": "TCP Connection Failure Analysis System - Roll Number: 104 - FSWD, CN, FLAT",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build",
+    "lint": "cd frontend && npm run lint",
+    "test": "cd backend && npm test",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "tcp",
+    "network-analysis",
+    "automata",
+    "fsm",
+    "fswd",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Roll Number: 104 - Department of IT, VCET",
+  "license": "MIT"
+}
