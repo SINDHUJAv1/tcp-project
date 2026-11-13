@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: tcp-project-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CONSECUTIVE_FAILURE_THRESHOLD
+        value: "3"
+      - key: FAILURE_WINDOW_MS
+        value: "60000"
